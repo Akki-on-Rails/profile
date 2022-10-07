@@ -8,7 +8,8 @@
 body {
   background-color: #21293F;
   color: #333;
-  font-family: 'Open Sans', Verdana, sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
   font-size: 16px;
   line-height: 1.5em;
   margin-block-start: 12px;
@@ -16,11 +17,11 @@ body {
 }
 
 h1 {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Open Sans', Verdana, sans-serif;
   font-weight: 600;
-  font-size: 35px;
-  color: #A63446;
-
+  font-size: 100px;
+  color: white;
+  line-height: 6rem;
 }
 
 h3 {
@@ -47,30 +48,58 @@ em {
   font-style: italic;
 }
 
-img {
- width: 100px;
- height: 100px;
- object-fit: cover;
- border-radius: 50%;
-}
-
 .bg-typo {
   position: fixed;
   z-index: -1;
+  width: 100%;
 }
 
 .bg-typo p {
+  width: 100%;
   font-size: 2500%;
   font-family: 'Open Sans', Verdana, sans-serif;
   font-weight: 800;
   text-align: center;
   margin: 100px auto;
-  padding: 100px 0;
+  padding: 110px 0;
   color: rgba(255, 255, 255, 0.02);
 }
 
+.bg-typo p:first-child {
+  letter-spacing: 3rem;
+}
+
+.intro {
+ display: flex;
+ width: 80%;
+ justify-content: space-between;
+ margin: 0 auto;
+}
+
+.blob-image-holder {
+  width: 35%;
+  /* position: relative;
+  left: 10%;
+  top: 15%; */
+}
+
+.avatar-title {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+  position: relative;
+  left: 27%;
+  top: -54%;
+}
+
+.intro-text {
+  width: 50%;
+  color: white;
+}
+
 .container {
-  width: 700px;
+  width: 1000px;
   margin: 0 auto;
 }
 

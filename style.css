@@ -36,12 +36,14 @@ h1, h3, p {
 }
 
 a {
-  font-weight: 700;
-  color: #0c6291;
+  color: #EA483D;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
 }
 
 a:hover {
-  color: #063047;
+  color: #AD3C35;
 }
 
 em {
@@ -52,16 +54,16 @@ em {
   position: fixed;
   z-index: -1;
   width: 100%;
+  margin: 0px auto;
 }
 
 .bg-typo p {
   width: 100%;
-  font-size: 2500%;
+  font-size: 20rem;
   font-family: 'Open Sans', Verdana, sans-serif;
   font-weight: 800;
   text-align: center;
-  margin: 100px auto;
-  padding: 110px 0;
+  padding-bottom: 290px;
   color: rgba(255, 255, 255, 0.02);
 }
 
@@ -71,31 +73,40 @@ em {
 
 .intro {
  display: flex;
- width: 80%;
+ width: 950px;
  justify-content: space-between;
- margin: 0 auto;
+ margin: 200px auto;
 }
 
-.blob-image-holder {
-  width: 35%;
-  /* position: relative;
-  left: 10%;
-  top: 15%; */
+.blob-image-holder svg {
+  width: 440px;
 }
-
 .avatar-title {
   width: 250px;
   height: 250px;
   object-fit: cover;
   border-radius: 50%;
   position: relative;
-  left: 27%;
-  top: -54%;
+  left: 22.5%;
+  top: -55%;
 }
 
 .intro-text {
-  width: 50%;
+  width: 75%;
   color: white;
+}
+
+.intro-text p {
+  margin-top: 50px;
+}
+
+header {
+  transform: rotate(-90deg);
+  display: flex;
+  position: fixed;
+  position: absolute;
+  right: 0;
+  top: 150px;
 }
 
 .container {
@@ -120,11 +131,15 @@ em {
 
 .list-inline > li {
   display: inline-block;
-  padding: 0px 20px;
+  padding: 0px 0px;
+}
+
+li {
+  display: flex;
 }
 
 .fab {
-  font-size: 40px;
+  font-size: 25px;
 }
 
 @media (max-width: 960px) {
